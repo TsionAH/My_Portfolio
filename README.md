@@ -27,7 +27,7 @@ I built this portfolio primarily using **vanilla HTML and CSS**, with minimal Ja
 ## 🔗 Live Demo
 
 You can view the live portfolio here:  
-[Live Website][https://marvelous-faun-f482fe.netlify.app/projects]
+[Live Website][https://marvelous-faun-f482fe.netlify.app]
 
 ---
 
