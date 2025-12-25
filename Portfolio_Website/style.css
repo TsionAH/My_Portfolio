@@ -1,6 +1,6 @@
-/* ================================
+/* 
    CSS VARIABLES (Global Colors)
-================================ */
+ */
 :root {
     --black: #000000;
     --white: #ffffff;
@@ -12,18 +12,18 @@
     --card-bg: #eae7e7;
 }
 
-/* ================================
+/*
    GLOBAL RESET
-================================ */
+*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* ================================
+/*
    NAVIGATION
-================================ */
+ */
 nav {
     display: flex;
     background-color: var(--black);
@@ -45,15 +45,16 @@ nav {
 
 nav ul li a {
     color: var(--white);
+    text-decoration: none;
 }
 
 nav ul li a:hover {
     color: var(--accent-blue);
 }
 
-/* ================================
+/* 
    HERO SECTIONS
-================================ */
+*/
 .heropage {
     background-image: url(images/editphoto2.jpg);
     background-repeat: no-repeat;
@@ -94,9 +95,9 @@ h3 {
     color: var(--name-color);
 }
 
-/* ================================
+/* 
    SECTION 2
-================================ */
+ */
 .section2 {
     padding: 60px 50px;
     background-color: var(--section-bg);
@@ -111,9 +112,9 @@ p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/* ================================
+/*
    SECTION 3 (MY WORK)
-================================ */
+ */
 .section3 {
     text-align: center;
     background-color: var(--section-bg);
@@ -165,9 +166,9 @@ p {
     display: block;
 }
 
-/* ================================
+/*
    SECTION 4
-================================ */
+ */
 .section4 {
     margin: 30px;
     display: flex;
@@ -198,9 +199,9 @@ p {
     width: 300px;
 }
 
-/* ================================
+/* 
    RESPONSIVE DESIGN
-================================ */
+ */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
